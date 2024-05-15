@@ -1,6 +1,6 @@
 # User Stories: Currency Management
 
-## Goal&nbsp; <img src="resources/images/goal.png" style="width: 30px; height: 30px;margin-top: 20px;">
+## Goal &nbsp; <img src="resources/images/goal.png" style="width: 30px; height: 30px;margin-top: 20px;">
 
 Enable users to manage currencies effectively within the system.
 
@@ -77,7 +77,7 @@ Enable users to manage currencies effectively within the system.
 
 **2.** If you have permission to manage currencies (`MANAGE_CURRENCIES`, `SET_REF_CURRENCY`), the button to edit the currency is available.
 
-**3.** When you close the currency details screen, it should take you back to the currency list.
+**3.** When you close the currency details screen, it takes you back to the currency list.
 
 
 ## User Story: Add Currency &nbsp;<img src="resources/images/plus.png" style="width: 30px; height: 30px;margin-top: 20px;">
@@ -106,11 +106,11 @@ Enable users to manage currencies effectively within the system.
 
 **1.** Being able to see the currency list, you can initiate adding currency, if you have `MANAGE_CURRENCIES`, `SET_REF_CURRENCY` permission.
 
-**2.** When adding a currency, you can enable cash operations if needed (field shows `Non-cash operations = True`).
+**2.** When adding currency, you can enable cash operations if needed (field shows `Non-cash operations = True`).
 
-**3.** When adding a currency, you can enable legal tender if needed (field shows `Cash operations = True`).
+**3.** When adding currency, you can enable legal tender if needed (field shows `Cash operations = True`).
 
-**4.** To set the new currency as a reference currency, the following conditions must be true: 
+**4.** To set new currency as the reference currency, the following conditions must be true: 
 
 * Field `Legal tender = True`.
 
@@ -118,11 +118,11 @@ Enable users to manage currencies effectively within the system.
 
 * You have permission `SET_REF_CURRENCY`.
   
-**5.** After entering currency details, the system should validate them. If everything is correct, it saves the currency and shows you the updated currency list. The system will display a relevant message for a given validation.
+**5.** After entering currency details, the system validates them. If everything is correct, it saves the currency and shows you the updated currency list. The system will display a relevant message for a given validation.
 
 **6.** If you try to cancel adding currency with unsaved changes, the system will prompt you to confirm. It discards the changes if confirmed and returns you to the currency list.
 
-## User Story: Edit Currency &nbsp; &nbsp;<img src="resources/images/edit.png" style="width: 30px; height: 30px;margin-top: 20px;">
+## User Story: Edit Currency &nbsp;<img src="resources/images/edit.png" style="width: 30px; height: 30px;margin-top: 20px;">
 
 <table>
 <tr>
@@ -147,13 +147,13 @@ Enable users to manage currencies effectively within the system.
 
 **1.** From the currency list, you should be able to select and edit currency, if you have `MANAGE_CURRENCIES`, `SET_REF_CURRENCY` permission.
 
-**2.** If you have any of the permissions listed above, you should be able to initiate editing from the currency details.
+**2.** If you have any of the permissions listed above, you can initiate editing from the currency details.
 
 **3.** When editing currency, you can enable cash operations if needed (field shows `Non-cash operations = True`).
 
-**4.** When editing currency, I should be able to enable legal tender if needed (the field shows `Cash operations = True`).
+**4.** When editing currency, you can enable legal tender if needed (the field shows `Cash operations = True`).
 
-**5.** To set a new currency as the reference currency, the following conditions must be true: 
+**5.** To set new currency as the reference currency, the following conditions must be true: 
 
 * Field `Legal tender = True`.
 
@@ -161,11 +161,11 @@ Enable users to manage currencies effectively within the system.
 
 * You have permission `SET_REF_CURRENCY`.
 
-**6.** After editing currency details, the system should validate them. If everything is correct, it should save the changes and show me the updated currency list. The system will display a relevant message for a given validation. 
+**6.** After editing currency details, the system validates them. If everything is correct, it saves the changes and shows you the updated currency list. The system will display a relevant message for a given validation. 
 
-**7.** If you try to cancel editing currency with unsaved changes, the system should prompt you to confirm. If confirmed, it should discard the changes and return you to the currency list.
+**7.** If you try to cancel editing currency with unsaved changes, the system prompts you to confirm. If confirmed, it discards the changes and returns you back to the currency list.
 
-**8.** If a currency is set as the reference currency, you will not be able to edit the following fields: 
+**8.** If currency is set as the reference currency, you will not be able to edit the following fields: 
 
 * `Reference currency`.
 
